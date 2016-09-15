@@ -8,9 +8,9 @@
 <h2>@Model.Name</h2>
 
 <ul>
-    <li>@Model.MembershipType.Name</li>
-   @if (@Model.Birthdate != null)
+   <li>Membership Type: @Model.MembershipType.Name</li>
+   @if (@Model.Birthdate.Value.ToShortDateString() != "01/01/1900")
    {
-       <li>@Model.Birthdate.ToShortDateString()</li>
+       <li>Birthdate: @Model.Birthdate.Value.ToShortDateString()</li>
    }
 </ul>
