@@ -11,6 +11,6 @@
     <li>@Model.MembershipType.Name</li>
    @if (@Model.Birthdate != null)
    {
-       <li>@Model.Birthdate</li>
+       <li>@Model.Birthdate.ToShortDateString()</li>
    }
 </ul>
