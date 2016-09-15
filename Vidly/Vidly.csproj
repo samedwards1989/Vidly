@@ -227,9 +227,18 @@
     <Compile Include="Migrations\201609151150488_ChangeBirthDateToNullable3.Designer.cs">
       <DependentUpon>201609151150488_ChangeBirthDateToNullable3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201609151209459_AddMovieAndGenreTable.cs" />
+    <Compile Include="Migrations\201609151209459_AddMovieAndGenreTable.Designer.cs">
+      <DependentUpon>201609151209459_AddMovieAndGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609151210542_PopulateGenreTable.cs" />
+    <Compile Include="Migrations\201609151210542_PopulateGenreTable.Designer.cs">
+      <DependentUpon>201609151210542_PopulateGenreTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -351,6 +360,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201609151150488_ChangeBirthDateToNullable3.resx">
       <DependentUpon>201609151150488_ChangeBirthDateToNullable3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609151209459_AddMovieAndGenreTable.resx">
+      <DependentUpon>201609151209459_AddMovieAndGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609151210542_PopulateGenreTable.resx">
+      <DependentUpon>201609151210542_PopulateGenreTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
